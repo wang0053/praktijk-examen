@@ -1,0 +1,366 @@
+/* Voor alle pagina's*/
+
+header {
+    background-color: orangered;
+    text-align: center;
+}
+
+nav {
+    background-color: orange;
+    padding: 0.1%;
+}
+
+
+
+nav ul li {
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    color: white;
+}
+
+
+header h4 {
+    color: white;
+}
+
+
+
+footer {
+    background-color: orange;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+
+footer h4 {
+    margin-bottom: -1%;
+}
+
+@media (min-width: 320px) {
+	nav ul {
+        display: block;
+      }
+
+      article {
+        display: block;
+    }
+}
+
+@media (min-width: 1000px) {
+	nav ul {
+        display: flex;
+      }
+
+      nav ul {
+        display: flex;
+        justify-content: flex-start;
+      }
+
+
+
+}
+
+/*index.html*/
+
+.sidebar-index {
+    
+    background-color: lightsalmon;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+
+
+.main-index h1 {
+    color: orangered;
+}
+
+@media (min-width: 320px) {
+	.sidebar-index {
+        width: 100%; 
+      }
+
+      article {
+        display: block;
+    }
+
+    .main-index {
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+}
+
+@media (min-width: 1000px) {
+	.sidebar-index {
+        width: 25%;
+      }
+
+      .main-index {
+        width: 75%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    article {
+        display: flex;
+    }
+}
+
+
+/*over-ons.html*/
+
+.sidebar-overons {
+    background-color: lightsalmon;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.main-overons {
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.main-overons h1 {
+    color: orangered;
+}
+
+
+
+@media (min-width: 320px) {
+	.sidebar-overons {
+        width: 100%; 
+      }
+
+      article {
+        display: block;
+    }
+
+    .main-index {
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    .flex-1 {
+        display: block;
+    }
+}
+
+@media (min-width: 1000px) {
+	.sidebar-overons {
+        width: 25%;
+      }
+
+      .main-index {
+        width: 75%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    article {
+        display: flex;
+    }
+
+    .flex-1 {
+        display: flex;
+    }
+}
+
+
+/*tarieven.html*/
+
+.sidebar-tarieven {
+    width: 25%;
+    background-color: lightsalmon;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.sidebar-tarieven p:nth-last-of-type(1) {
+  border-top: solid 1px; 
+
+}
+.sidebar-tarieven p:nth-last-of-type(2) {
+    border-top: solid 1px; 
+  
+  }
+
+
+.main-tarieven {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+}
+
+.main-tarieven h1 {
+    color: orangered;
+}
+
+.artikel {
+    display: flex;
+    border-bottom: 1px solid;
+}
+
+.artikel p {
+    padding-left: 10px;
+    padding-top: 5px;
+}
+
+@media (min-width: 320px) {
+	.sidebar-tarieven {
+        width: 100%; 
+      }
+
+      article {
+        display: block;
+    }
+
+    .main-tarieven {
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+	.sidebar-tarieven {
+        width: 25%;
+      }
+
+      .main-tarieven {
+        width: 75%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    article {
+        display: flex;
+    }
+
+}
+
+/*contact.html*/
+
+.sidebar-contact {
+    width: 25%;
+    background-color: lightsalmon;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+.sidebar-contact p {
+    margin-bottom: -1em;
+}
+
+
+.main-contact {
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 5%;
+}
+
+.main-contact h1 {
+    color: orangered;
+}
+
+iframe {
+    margin-top: 1.5em;
+}
+
+input {
+    padding: 1%;
+}
+
+select {
+    padding: 1%;
+}
+
+button {
+    color: white;
+    background-color: orangered;
+    width: 100px;
+    padding: 15px;
+    font-size: 15px;
+}
+
+/*blog.html*/
+
+.blog-post {
+    display: block;
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 30px;
+}
+
+
+@media (min-width: 320px) {
+	.sidebar-contact {
+        width: 100%; 
+      }
+
+      article {
+        display: block;
+    }
+
+    .main-contact {
+        width: 100%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    textarea {
+        width: 100%;
+    }
+
+    select {
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1000px) {
+	.sidebar-contact {
+        width: 25%;
+      }
+
+      .main-contact {
+        width: 75%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+
+    article {
+        
+        display: flex;
+    }
+
+    input {
+        width: 50%;
+    }
+
+    textarea {
+        width: 50%;
+    }
+
+    select {
+        width: 50%;
+    }
+
+}
+
